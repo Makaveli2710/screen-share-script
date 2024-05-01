@@ -3,8 +3,17 @@ from vidstream import ScreenShareClient, StreamingServer
 import threading
 
 while True :
-    print("\t\t\t\t\tWelcome to the Screen Sharing Script.\t\t\t\t\t\n")
+    print('''
+            SCREEN SHARING SCRIPT
+          -------------------------
+            PRIVATE. SAFE. QUIET.
+        ''')
     print("**lil hint : to quit the stream just press Q ;)**\n")
+    print('''
+          If you want to use the script and share your screen, choose the first choice and enter the receiver's IP Adress, and port.
+          If you want to use the script and receive a screen, choose the second one and enter the sender's IP Adress, and the port.
+          PS : you must be on the same port, so if you don't know it just enter 9999 !  
+        ''' )
     print("1- Share screen.")
     print("2- Receive a screen.")
     choice = int(input("Enter your choice :"))
